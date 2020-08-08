@@ -17,7 +17,7 @@
 	},
 	{
 		"ParameterKey": "ClusterName",
-		"ParameterValue": "UdacityDevOpsNanodegreeCapStone-Cluster"
+		"ParameterValue": "UdacityCapStone-Cluster"
 	},
 	{
 		"ParameterKey": "ClusterControlPlaneSecurityGroup",
