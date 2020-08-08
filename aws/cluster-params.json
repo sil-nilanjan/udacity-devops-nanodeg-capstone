@@ -5,11 +5,11 @@
 	},
 	{
 		"ParameterKey": "Subnets",
-		"ParameterValue": "subnet-022055553d308de31,subnet-0317179c350ab018a,subnet-018770f8afd163481"
+		"ParameterValue": "subnet-0e8a2da60e0e0e06b,subnet-0fa635bbc0de1a08f,subnet-0d1fde1eeaf1e02b5"
 	},
 	{
 		"ParameterKey": "SecurityGroup",
-		"ParameterValue": "sg-0b2630e3ec6a64a94"
+		"ParameterValue": "sg-0272e65ec9913375a"
 	},
 	{
 		"ParameterKey": "ClusterName",
