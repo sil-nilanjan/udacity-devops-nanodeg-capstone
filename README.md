@@ -34,10 +34,10 @@ Apply AWS Auth
 Check service
 `kubectl get svc`
 
-Generate secret 
-`EMAIL=sil.nilanjan@gmail.com`
-`TOKEN=$(aws ecr --region=eu-west-2 get-authorization-token --output text --query authorizationData[].authorizationToken | base64 -d | cut -d: -f2)`
-`kubectl delete secret --ignore-not-found ecr-secret`	
+Generate secret<br/> 
+`EMAIL=sil.nilanjan@gmail.com`<br/>
+`TOKEN=$(aws ecr --region=eu-west-2 get-authorization-token --output text --query authorizationData[].authorizationToken | base64 -d | cut -d: -f2)`<br/>
+`kubectl delete secret --ignore-not-found ecr-secret`	<br/>
 `kubectl create secret docker-registry ecr-secret --docker-server=627513304485.dkr.ecr.us-west-2.amazonaws.com --docker-username=AWS --docker-password=$TOKEN --docker-email=$EMAIL`
 
 e) Create the ECR:
