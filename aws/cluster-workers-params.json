@@ -1,0 +1,34 @@
+[
+	{
+		"ParameterKey": "KeyName",
+		"ParameterValue": "nanodegree"
+	},
+	{
+		"ParameterKey": "OnDemandBootstrapArguments",
+		"ParameterValue": "--kubelet-extra-args --node-labels=lifecycle=OnDemand"
+	},
+	{
+		"ParameterKey": "NodeImageId",
+		"ParameterValue": "ami-003634241a8fcdec0"
+	},
+	{
+		"ParameterKey": "OnDemandNodeInstanceType",
+		"ParameterValue": "t2.medium"
+	},
+	{
+		"ParameterKey": "ClusterName",
+		"ParameterValue": "UdacityDevOpsNanodegreeCapStone-Cluster"
+	},
+	{
+		"ParameterKey": "ClusterControlPlaneSecurityGroup",
+		"ParameterValue": "sg-0b2630e3ec6a64a94"
+	},
+	{
+		"ParameterKey": "VpcId",
+		"ParameterValue": "vpc-0ae96cfd02614f7c9"
+	},
+	{
+		"ParameterKey": "Subnets",
+		"ParameterValue": "subnet-022055553d308de31,subnet-0317179c350ab018a,subnet-018770f8afd163481"
+	}
+]

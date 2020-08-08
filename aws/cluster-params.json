@@ -1,0 +1,18 @@
+[
+	{
+		"ParameterKey": "StackName",
+		"ParameterValue": "UdacityDevOpsNanodegreeCapStone"
+	},
+	{
+		"ParameterKey": "Subnets",
+		"ParameterValue": "subnet-022055553d308de31,subnet-0317179c350ab018a,subnet-018770f8afd163481"
+	},
+	{
+		"ParameterKey": "SecurityGroup",
+		"ParameterValue": "sg-0b2630e3ec6a64a94"
+	},
+	{
+		"ParameterKey": "ClusterName",
+		"ParameterValue": "UdacityDevOpsNanodegreeCapStone-Cluster"
+	}
+]
