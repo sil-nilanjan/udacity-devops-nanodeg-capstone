@@ -1,2 +1,1 @@
-FROM nextcloud:production
-EXPOSE 8080
+FROM openresty/openresty:1.15.8.1-1-alpine
