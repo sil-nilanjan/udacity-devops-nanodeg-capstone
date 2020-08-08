@@ -3,15 +3,15 @@ pipeline {
 	environment {
 			VERSION = 'latest'
 			PROJECT = 'udacitycapstone-nextcloud'
-					IMAGE = "$PROJECT"
-					ECRURL = "https://627513304485.dkr.ecr.us-west-2.amazonaws.com/$PROJECT"
-					ECRURI = "627513304485.dkr.ecr.us-west-2.amazonaws.com/$PROJECT"
-					ECRCRED = 'ecr:us-west-2:jenkins'
+			IMAGE = "$PROJECT"
+			ECRURL = "https://627513304485.dkr.ecr.us-west-2.amazonaws.com/$PROJECT"
+			ECRURI = "627513304485.dkr.ecr.us-west-2.amazonaws.com/$PROJECT"
+			ECRCRED = 'ecr:us-west-2:jenkins'
 	}
 	stages {
 		stage("Lint Dockerfile") {
 			steps {
-				sh "chmod 777 /var/run/docker.sock && docker run --rm -i hadolint/hadolint:v1.17.5 < Dockerfile"
+				sh "sudo docker run --rm -i hadolint/hadolint:v1.17.5 < Dockerfile"
 			}
 		}
 		stage('Build Prep') {
