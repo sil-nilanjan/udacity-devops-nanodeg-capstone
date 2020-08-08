@@ -42,7 +42,6 @@ pipeline {
 				sh "docker push 627513304485.dkr.ecr.eu-west-2.amazonaws.com/udacitycapstone-nextcloud"
 			}
 		}
-		}
 		stage('K8S Deploy') {
 			steps {
 					withEnv(["AWS_ACCESS_KEY_ID=${env.AWS_ACCESS_KEY_ID}",
