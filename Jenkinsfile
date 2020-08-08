@@ -14,7 +14,7 @@ pipeline {
 				sh "sudo docker run --rm -i hadolint/hadolint:v1.17.5 < Dockerfile"
 			}
 		}
-		stage('Build preparations') {
+		stage('Build Prep') {
 			steps {
 				script {
 					// calculate GIT lastest commit short-hash
@@ -27,7 +27,7 @@ pipeline {
 				}
 			}
 		}
-		stage('Docker build') {
+		stage('Dockerizing') {
 		  	steps {
 				script {
 					// Build the docker image using a Dockerfile
@@ -35,7 +35,7 @@ pipeline {
 				}
       		}
 		}
-		stage('Docker push') {
+		stage('Docker Push') {
 			steps {
 				script {
 					// Push the Docker image to ECR
