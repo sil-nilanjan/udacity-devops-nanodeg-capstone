@@ -33,7 +33,7 @@ pipeline {
 					// Build the docker image using a Dockerfile
 					docker.build("$IMAGE")
 				}
-      		}
+      		        }
 		}
 		stage('Docker push') {
 			steps {
