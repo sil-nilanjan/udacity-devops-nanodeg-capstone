@@ -1,7 +1,7 @@
 [
 	{
 		"ParameterKey": "KeyName",
-		"ParameterValue": "nanodegree"
+		"ParameterValue": "pipeline"
 	},
 	{
 		"ParameterKey": "OnDemandBootstrapArguments",
@@ -9,7 +9,7 @@
 	},
 	{
 		"ParameterKey": "NodeImageId",
-		"ParameterValue": "ami-003634241a8fcdec0"
+		"ParameterValue": "ami-00f6a0c18edb19300"
 	},
 	{
 		"ParameterKey": "OnDemandNodeInstanceType",
@@ -21,14 +21,14 @@
 	},
 	{
 		"ParameterKey": "ClusterControlPlaneSecurityGroup",
-		"ParameterValue": "sg-0b2630e3ec6a64a94"
+		"ParameterValue": "sg-0272e65ec9913375a"
 	},
 	{
 		"ParameterKey": "VpcId",
-		"ParameterValue": "vpc-0ae96cfd02614f7c9"
+		"ParameterValue": "vpc-0d071fb993c48bfb3"
 	},
 	{
 		"ParameterKey": "Subnets",
-		"ParameterValue": "subnet-022055553d308de31,subnet-0317179c350ab018a,subnet-018770f8afd163481"
+		"ParameterValue": "subnet-0e8a2da60e0e0e06b,subnet-0fa635bbc0de1a08f,subnet-0d1fde1eeaf1e02b5"
 	}
 ]
