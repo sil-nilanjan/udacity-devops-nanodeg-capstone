@@ -5,12 +5,12 @@ metadata:
   namespace: kube-system
 data:
   mapUsers: |
-    - userarn: arn:aws:iam::627513304485:user/sharat
-      username: sharat
+    - userarn: arn:aws:iam::627513304485:user/nilanjan
+      username: nilanjan
       groups:
         - system:masters
   mapRoles: |
-    - rolearn: arn:aws:iam::627513304485:role/UdacityDevOpsNanodegreeCapStone-K-NodeInstanceRole-1MX9T65YBHF8F
+    - rolearn: arn:aws:iam::627513304485:role/UdacityCapStone-K-NodeInstanceRole-1MX9T65YBHF8F
       username: system:node:{{EC2PrivateDNSName}}
       groups:
         - system:bootstrappers
