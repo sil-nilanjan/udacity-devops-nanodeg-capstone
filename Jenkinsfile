@@ -54,6 +54,8 @@ pipeline {
 						sh "kubectl apply -f k8s/service.yml"
 						// Set created image to do a rolling update
 						sh "kubectl set image deployments/$PROJECT $PROJECT=$ECRURI:latest"
+						sh "kubectl get nodes"
+						sh "kubectl get pods"
 					}
 			}
 		}
