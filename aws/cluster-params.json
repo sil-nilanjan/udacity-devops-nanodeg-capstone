@@ -1,7 +1,7 @@
 [
 	{
 		"ParameterKey": "StackName",
-		"ParameterValue": "UdacityDevOpsNanodegreeCapStone"
+		"ParameterValue": "UdacityCapStone"
 	},
 	{
 		"ParameterKey": "Subnets",
@@ -13,6 +13,6 @@
 	},
 	{
 		"ParameterKey": "ClusterName",
-		"ParameterValue": "UdacityDevOpsNanodegreeCapStone-Cluster"
+		"ParameterValue": "UdacityCapStone-Cluster"
 	}
 ]
