@@ -1,7 +1,7 @@
 [
 	{
 		"ParameterKey": "StackName",
-		"ParameterValue": "UdacityDevOpsNanodegreeCapStone"
+		"ParameterValue": "UdacityCapStone"
 	},
 	{
 		"ParameterKey": "VpcBlock",
